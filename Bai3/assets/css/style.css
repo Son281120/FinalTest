@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Merriweather:wght@700;900&family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #bfc8e6;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+
+
+.header-h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 4rem;
+}
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.navbar__search {
+    position: relative;
+    border-radius: 8px;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    height: 6rem;
+    
+}
+
+.navbar__search-input {
+    height: 100%;
+    padding:16px 16px 16px  38px;
+    border: 1px solid #BFC8E6;
+    border-radius: 8px;
+}
+
+.navbar__search-icon {
+    position: absolute;
+    font-size: 2.2rem;
+    left: 26px;
+    top: 20px;
+}
+
+.navbar__list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.navbar__item {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.navbar__item:hover {
+    background-color: #849FFF;
+    color: #fff;
+}
+
+.content {
+    margin-top: 70px;
+}
+
+.content__item {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-color: #FBFCFF;
+}
+
+.content__item:hover {
+    border: 1px solid #BFC8E5;
+    box-shadow: 0px 8px 23px rgba(218, 224, 249, 0.7);
+}
+
+.item__description {
+    margin-left: 16px;
+}
+
+.description__info {
+    margin: 16px 0;
+}
+
+.description__info-name {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.description__info-address {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+
+.description__hobbies-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.description__hobbies-item {
+    color: #516FD4;
+    border: 1px solid #BFC8E5;
+    border-radius: 8px;
+    padding: 2px 8px;
+    margin: 2px;
+}
