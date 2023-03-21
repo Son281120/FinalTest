@@ -37,10 +37,11 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 
 .navbar__search {
+    max-width:100% ;
     position: relative;
     border-radius: 8px;
     line-height: 2.4rem;
@@ -59,8 +60,8 @@ body{
 .navbar__search-icon {
     position: absolute;
     font-size: 2.2rem;
-    left: 26px;
-    top: 20px;
+    left: 2.6rem;
+    top: 2rem;
 }
 
 .navbar__list {
@@ -85,7 +86,7 @@ body{
 }
 
 .content {
-    margin-top: 70px;
+    margin-top: 7rem;
 }
 
 .content__item {
